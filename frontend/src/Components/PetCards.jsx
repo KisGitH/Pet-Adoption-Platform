@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { usePetStore } from '../store/Pet';
+import { usePetStore } from '../store/pet.js';
 import { assets } from '../assets/assets';
 
 const PetCards = ({ filters, searchTriggered }) => {

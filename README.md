@@ -27,7 +27,7 @@ Technologies Used
 - Frontend: React, Tailwind CSS  
 - Backend: Node.js, Express.js  
 - Database: MongoDB  
-- Hosting: Localhost (`http://localhost:5173`)  
+- Hosting: Render.com (Live Link: https://pet-adoption-platform-ueh7.onrender.com/)  
 
 Team  
 - KISHOREKUMAR S
@@ -74,14 +74,21 @@ Steps
     npm run dev  
     This will start both the frontend and backend servers.
 
-7.Access the application by opening your browser and navigating to: http://localhost:5173  
+7.Access the application locally: Open your browser and navigate to: http://localhost:5173.
 
+Live Hosting
+
+The application is hosted on Render.com and can be accessed at: https://pet-adoption-platform-ueh7.onrender.com/
 
 
 Contact
 
-KISHOREKUMAR S : kishore88708585@gmail.com
-MANIKANDAN S   : manidev0018@gmail.com
+KISHOREKUMAR S: kishore88708585@gmail.com
+
+
+MANIKANDAN S: manidev0018@gmail.com
+
+
 
 
 

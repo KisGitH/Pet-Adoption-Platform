@@ -51,24 +51,24 @@ Steps
 
 3. Add environment variables:
 
-4. Create a .env file in the root directory and add the following configuration:
+   Create a .env file in the root directory and add the following configuration:
    
       MONGO_URI=<Your_MongoDB_Connection_URL>  
       PORT=5000
     
     Replace <Your_MongoDB_Connection_URL> with your actual MongoDB connection string.
 
-5. Install dependencies for both frontend and backend:   npm run build
+6. Install dependencies for both frontend and backend:   "npm run build"
 
-6. Configure Web3Forms for the Contact Us form:
+7. Configure Web3Forms for the Contact Us form:
     Go to Web3Forms.
     Create your account and obtain the API key.
     Add the API key in the relevant section of the Contact Us form component.
 
-7. Run the application:   npm run start
+8. Run the application:   "npm run start" 
    This will start both the frontend and backend.
 
-8. Access the application locally: 
+9. Access the application locally: 
    
    Open your browser and navigate to:   http://localhost:5000.
 

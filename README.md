@@ -44,41 +44,41 @@ Ensure the following are installed on your system:
 - MongoDB  
 
 Steps  
-1. Clone the repository:  
-   bash  
-   git clone https://github.com/KisGitH/Pet-Adoption-Platform  
 
-2.Navigate to the project directory:
-    bash
-    cd Pet-Adoption-Platform  
+1. Clone the repository:   git clone https://github.com/KisGitH/Pet-Adoption-Platform  
 
-3.Install dependencies for the frontend:
-    bash
-    cd client  
-    npm install  
-    This will install React, Tailwind CSS, and other required dependencies.
+2. Navigate to the project directory:   cd Pet-Adoption-Platform
 
-4.Install dependencies for the backend:
-    bash
-    cd server  
-    npm install  
-    This will install Express.js, MongoDB drivers, and required packages, including .env configuration support.
+3. Add environment variables:
 
-5.Configure Web3Forms for the Contact Us form:
+4. Create a .env file in the root directory and add the following configuration:
+   
+      MONGO_URI=<Your_MongoDB_Connection_URL>  
+      PORT=5000
+    
+    Replace <Your_MongoDB_Connection_URL> with your actual MongoDB connection string.
+
+5. Install dependencies for both frontend and backend:   npm run build
+
+6. Configure Web3Forms for the Contact Us form:
     Go to Web3Forms.
     Create your account and obtain the API key.
     Add the API key in the relevant section of the Contact Us form component.
 
-6.Run the application:
-    bash
-    npm run dev  
-    This will start both the frontend and backend servers.
+7. Run the application:   npm run start
+   This will start both the frontend and backend.
 
-7.Access the application locally: Open your browser and navigate to: http://localhost:5173.
+8. Access the application locally: 
+   
+   Open your browser and navigate to:   http://localhost:5000.
 
 Live Hosting
 
-The application is hosted on Render.com and can be accessed at: https://pet-adoption-platform-ueh7.onrender.com/
+   The application is hosted on Render.com and can be accessed at:   https://pet-adoption-platform-ueh7.onrender.com/
+
+Note:
+
+   The live server on Render.com is often inactive when not in use. If inactive, it may take approximately 50 seconds to restart and become accessible when someone tries to access it.
 
 
 Contact

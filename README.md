@@ -7,7 +7,7 @@ Pages
 - Login Page: Secure authentication for users.  
 - Register Page: Enables new users to create accounts.  
 - Home Page: Provides an overview of the platform’s mission and services.  
-- Adopt Us: Displays available pets with filtering options.  
+- Adopt Us: Displays available pets dynamically fetched from the database, with filtering options.  
 - Get Involved With Us: Details collaboration opportunities for users.  
 - Blog: Offers blog posts about pet adoption and related initiatives.  
 - Contact Us: Includes a form to send messages directly to the email address via Web3Forms.  
